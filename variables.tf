@@ -29,7 +29,12 @@ variable "admin_username" {
 }
 
 variable "ssh_public_key" {
+  type = string
+}
+/*
+variable "ssh_public_key" {
   description = "Path to SSH public key"
   type        = string
   default     = "C:/Users/lenovo/.ssh/id_ed25519.pub"
 }
+*/
