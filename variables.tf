@@ -30,7 +30,7 @@ variable "admin_username" {
 
 variable "ssh_public_key" {
   description = "SSH public key used to access the Linux VM"
-  type = string
+  type        = string
   sensitive   = true
 }
 /*
