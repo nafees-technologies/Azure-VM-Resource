@@ -2,5 +2,5 @@
 resource_group_name = "rg-devops-vm"
 location            = "centralindia"
 vm_name             = "devops-vm"
-vm_size             = "B-Series v2"
+vm_size             = "D2ls_v5"
 admin_username      = "azureadmin"
